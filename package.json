@@ -1,0 +1,20 @@
+{
+  "name": "tradewin-server",
+  "version": "1.0.0",
+  "description": "This is by and sell server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "BUYANDSELL"
+  ],
+  "author": "SUBASH",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  }
+}

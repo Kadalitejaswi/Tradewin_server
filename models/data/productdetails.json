@@ -1,0 +1,924 @@
+[{
+    
+    "name" : "properties",
+    "image" : "./assets/images/properties/properties.png",
+    "subcategory" : [ 
+        {
+            "name" : "For Sale",
+            "image" : "./assets/images/properties/sale.png"
+        }, 
+        {
+            "name" : "For Rent",
+            "image" : "./assets/images/properties/rent.png"
+        }, 
+        {
+            "name" : "New Projects",
+            "image" : "./assets/images/properties/projects.png"
+        }
+    ]
+},
+{
+    
+    "name" : "cars",
+    "image" : "./assets/images/car.png",
+    "subcategory" : [ 
+        {
+            "_id" : "1a",
+            "name" : "cars",
+            "image" : "./assets/images/cars/car.png",
+            "sub" : [ 
+                {
+                    "name" : "Maruti Suzuki Ignis",
+                    "price" : "4.67 lakhs",
+                    "details" : "The Maruti Suzuki Ignis is a revolutionary car by Maruti Standards trying to bring a fresh design philosophy in the bare-bones hatchback segment in India. Aimed at the millennials, the Ignis was first showcased as the Suzuki iM-4 concept at the 2015 Geneva Motor Show and later unveiled at the 2015 Tokyo Motor Show.",
+                    "model" : "cars-Ignis",
+                    "image" : "",
+                    "date" : "20-8-2014",
+                    "location" : "china's"
+                }, 
+                {
+                    "name" : "Hyundai Elite",
+                    "image" : "",
+                    "model" : "Elitei20 Asta 1.4 CRDi Dual Tone 2018",
+                    "price" : "8,66,900",
+                    "date" : "20-5-2018",
+                    "location" : "pune",
+                    "details" : "The second-gen i20 facelift gets Hyundai’s latest family grille and carries forward the same 1.2-litre petrol and 1.4-litre diesel engine. A CVT auto will be offered with the petrol from May 2018 Reviews Hyundai has launched the 2018 Elite i20 facelift at the ongoing Auto Expo 2018 in Greater Noida"
+                }, 
+                {
+                    "name" : "BMW",
+                    "images" : "",
+                    "model" : "cars>>BMW i8",
+                    "price" : "2.62 Cr*",
+                    "date" : "14-2-2018",
+                    "location" : "Europe",
+                    "details" : "BMW has currently 12 cars on sale for the Indian market. BMW offers 4 SUVs, 6 Sedans, 1 Convertibles and 1 Hybrids. While the BMW X1 is most affordable SUV starting at Rs 34.5 Lakh, the BMW 3 Series is most affordable Sedans starting at Rs 39.8 Lakh, the BMW Z4 is most affordable Convertibles starting at Rs 81.8 Lakh, the BMW i8 is most affordable Hybrids starting at Rs 2.62 Cr. Also, the BMW i8 is the most expensive BMW car with a price tag of Rs 2.62 Cr. The BMW i8 is the latest offering from BMW with a starting price of Rs 2.62 Cr and the upcoming BMW Cars include the i8, M2, X7, X4, 3 Series 2019, 4 Series, X5 2019, X2, 8 Series, i3."
+                }
+            ]
+        }, 
+        {
+            "name" : "Commercial & Vehicles",
+            "image" : "./assets/images/cars/truck.png",
+            "sub" : [ 
+                {
+                    "name" : "Electric Rickshaw",
+                    "image" : "",
+                    "price" : "1.1lakh",
+                    "date" : "10-5-2016",
+                    "location" : "jaipur,rajasthan",
+                    "details" : "Starting from 2011, we Godawari Techno Solution Private Limited are an ISO 9001-2015 Certified Company and Manufacturing and Service Provider a high-quality range of Speed Governor, Electric Rickshaw and Telecommunication Services, Oil and Gas Services, Construction & Civil Services, Renewable Energy Solar Power Services. Offered products range consists of Speed Governor, Speed Limiting Device, and Electric Rickshaw. To manufacturing these products, we use top quality input factors. Our products are appreciated for their features like long life, elegant design, comfortable journey, fine upholstery, powerful motor, heavy shocker and crack resistance. Additionally, offered ranges are used for traveling purpose. "
+                }, 
+                {
+                    "name" : "JCB Loadall 540-170 Telehandler",
+                    "image" : "",
+                    "price" : "5lakh",
+                    "date" : "IndiaMART Member Since Jul 2011",
+                    "location" : "Mathura Road, Ballabgar",
+                    "details" : "A JCB Construction Loadall is extremely maneuverable making it easy to operate in confined spaces; the compact wheelbase and large steering lock angles save you valuable travel time on site.2 Loadalls come with 4WD as standard (optional 2WD can also be selected to minimise tyre wear and fuel use when roading), helping you maintain plenty of traction and performance in soft, muddy areas. A limited slip differential in the front axle is an option too."
+                }
+            ]
+        }, 
+        {
+            "name" : "Other Vehicles",
+            "image" : "./assets/images/cars/vehicle.png",
+            "sub" : [ 
+                {
+                    "location" : " Ahmedabad, Gujarat",
+                    "price" : "30,000",
+                    "image" : "",
+                    "name" : "HYDROFIT MS Hydraulic Power Pack",
+                    "details" : "Hydraulic Power Pack offers capacities, control options and configurations for virtually any application requirement. Specifications-Type- Hydraulic Power UnitsMaterial- Iron/SteelFuel- Gasoline",
+                    "model" : "HYDROFIT",
+                    "date" : "5-11-2010"
+                }, 
+                {
+                    "name" : "Food Truck",
+                    "image" : "",
+                    "price" : " 350000",
+                    "location" : "Saket Nagar, Bhopal",
+                    "details" : "Food Truck available for selling equipped with 4 burners, deep fryers, exhaust, fridge, water tank, light fittings, deep freezer, canopy, utensils, 3 4-seater tables with chairs",
+                    "model" : "s",
+                    "date" : "3-10-2017"
+                }
+            ]
+        }, 
+        {
+            "name" : "Spare Parts",
+            "image" : "./assets/images/cars/spare.png"
+        }
+    ]
+},
+{
+   
+    "name" : "mobiles",
+    "image" : "./assets/images/mobiles.png",
+    "subcategory" : [ 
+        {
+            "name" : "Mobile Phones",
+            "image" : "./assets/images/mobiles/phones.png",
+            "sub" : [ 
+                {
+                    "name" : "Moto (Indigo Black, 3GB RAM, 32GB Storage)",
+                    "image" : "",
+                    "date" : "",
+                    "model" : "Moto E5 Plus",
+                    "location" : "india,hyderabad",
+                    "details" : "Camera: 12 MP Rear camera with Laser auto focus and LED flash | 5 MP front camera with flash Display- 15.21 cm (6-inches) HD+ Max Vision IPS LCD capacitive touchscreen display with 720x1440 pixels and 18-9 aspect ratio Memory, Storage & SIM- 3GB RAM | 32GB storage expandable up to 128GB with dedicated slot | Dual nano SIM with dual standby (4G+4G)",
+                    "price" : "11,999.00"
+                }, 
+                {
+                    "name" : "OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)",
+                    "image" : "",
+                    "price" : "34,999.00",
+                    "date" : "",
+                    "model" : null,
+                    "location" : "india",
+                    "details" : "Battery-3300 mAH lithium Polymer battery with Dash Charge technology,Warranty-1 year manufacturer warranty for device and in-box accessories including batteries from the date of purchase,Included in box- Screen protector (pre-applied), Translucent case, Dash Type-C cable, Dash power adaptor,Other features- Face Unlock, Fingerprint scanner, Water Resistant, Glass back and NFC enabled"
+                }
+            ]
+        }, 
+        {
+            "name" : "Tablets",
+            "image" : "./assets/images/mobiles/tablets.png",
+            "sub" : [ 
+                {
+                    "name" : "Apple Tablet (9.7 inch, 32GB, Wi-Fi), Space Grey",
+                    "image" : "",
+                    "date" : "",
+                    "model" : "iPad(6th Gen)",
+                    "location" : "pune",
+                    "details" : "8MP primary camera with auto focus, flash, panorama (up to 43 megapixels, 1080p HD video recording, fixed focus, five-element lens, 3x video zoom and 1.2MP front facing camera.24.638 centimeters (9.7-inch) capacitive touchscreen with 2048 x 1536 pixels resolution iOS v11 operating system with 2.34GHz A10 Fusion chip with 64-bit architecture Embedded M10 quad core processor, 2GB RAM and 32GB internal memory",
+                    "price" : " 26,880.00"
+                }, 
+                {
+                    "name" : "Lenovo Tab4 10 Tablet (10.1 inch,16GB,Wi-Fi + 4G LTE) Slate Black",
+                    "image" : "",
+                    "price" : "15,204.00",
+                    "date" : "",
+                    "model" : "Lenovo",
+                    "location" : "india",
+                    "details" : "Sim card slot- 1 (Only for data connectivity, no voice calling option available).5MP Auto Focus rear camera and 2MP front facing camera,25.654 centimeters (10.1 inch) HD IPS 10 point multi-touch capacitive touchscreen with 1280 x 800 pixels resolution.Android v7.0 Nougat operating system with 1.4GHz 64-bit Qualcomm Snapdragon MSM8917 quad core processor, 2GB RAM, 16GB internal memory and single SIM (Data Only)"
+                }
+            ]
+        }, 
+        {
+            "name" : "Accessories",
+            "image" : "./assets/images/mobiles/accessories.png",
+            "sub" : [ 
+                {
+                    "name" : "AmazonBasics Waterproof Floating Hand Grip for GoPro Cameras",
+                    "image" : "",
+                    "date" : "3-2-2013",
+                    "model" : null,
+                    "location" : "Mumbai",
+                    "details" : "Floating hand grip compatible with all GoPro cameras including GoPro HERO5 Black, HERO5 Session, HERO4 Black, HERO4 Silver, and HERO Session.Completely waterproof.ideal forsnorkeling and other water-related activities (recommended depth up to 16 ft.)Octagonal-shaped with a rubberized grip for an extra-secure hold",
+                    "price" : "5000.00"
+                }, 
+                {
+                    "name" : "TP-Link TL-UE300 USB 3.0 to RJ45 Gigabit Ethernet Network Adapter",
+                    "image" : "",
+                    "price" : "1000.00",
+                    "date" : "6-6-1996",
+                    "model" : null,
+                    "location" : "Altamount Road, Mumbai",
+                    "details" : "TP-Link - World's No. 1 Provider of WLAN Products within last 6 years.SuperSpeed USB 3.0 to Gigabit Ethernet Network Adapter adds reliable & secured Ethernet network connectivity to your devices for faster transfer rate and better security connection through home or office LAN. Thisnetwork adapter backwards comply with USB 2.0 and 1.1 devices.Ultra Compact USB to Ethernet Adapter with Foldable Cord Design, more convenient for storage and travel.Driver Free Installation, plug & play for Windows, Mac, Linux and Chrome OS (driver is required to download and install manually for Mac OSX 10.6-10.8)"
+                }
+            ]
+        }
+    ]
+},
+{
+   
+    "name" : "pets",
+    "image" : "./assets/images/pets.png",
+    "subcategory" : [ 
+        {
+            "name" : "Fishes &Aquarium",
+            "image" : "./assets/images/pets/fishes.png",
+            "sub" : [ 
+                {
+                    "name" : "Betta full red",
+                    "image" : "",
+                    "date" : "3-10-2018",
+                    "model" : null,
+                    "location" : "Nair Kuzhi, Mavoor",
+                    "details" : "The Siamese fighting fish (Betta splendens), commonly known as the betta, or plakat Thai- Male bettas should not be kept with other male bettas, and all bettas may not be compatible-The layers (from furthest within to the outer layer) consists of red, yellow,",
+                    "price" : "7890"
+                }, 
+                {
+                    "name" : "Albino Flower horn , 6.5 inch...",
+                    "image" : "",
+                    "date" : "20-8-2016",
+                    "model" : "",
+                    "location" : "Dhanori Kheshe Park, Pune",
+                    "details" : "Flowerhorn cichlids are ornamental aquarium fish noted for their vivid colors and the  Head flowers can be found on the Kamfa, but not as prominently as with Zhen ... From the Kamfa family, this fish typically has white or yellow sunken eyes, ",
+                    "price" : "5000"
+                }, 
+                {
+                    "name" : "Red big ear",
+                    "image" : "",
+                    "price" : "250",
+                    "date" : "12-12-1015",
+                    "model" : null,
+                    "location" : " VIP Colony, Nilambur",
+                    "details" : "Platinum Red Mosaic HM HTD DUMBO (Big Ear Guppy) - Thai Beauty ᴴᴰ. Guppies are a very easy-to-breed fish species."
+                }
+            ]
+        }, 
+        {
+            "name" : "Dogs",
+            "image" : "./assets/images/pets/dogs.png",
+            "sub" : [ 
+                {
+                    "name" : "Labrador Retriever",
+                    "price" : "1,000,00",
+                    "location" : "Canada,United States",
+                    "model" : "Purebred",
+                    "date" : "20-5-2016",
+                    "details" : ""
+                }, 
+                {
+                    "name" : "Yorkshire Terrier",
+                    "image" : "",
+                    "price" : "4000",
+                    "model" : "Purebred ",
+                    "location" : "Toy (AKC-1885) Companion (UKC)",
+                    "details" : "",
+                    "date" : "5-6-2013"
+                }
+            ]
+        }, 
+        {
+            "name" : "Other Pets",
+            "image" : "./assets/images/pets/other.png",
+            "sub" : [ 
+                {
+                    "name" : "Snow White Pure Persian Kittens ",
+                    "image" : "",
+                    "date" : "23-9-2018",
+                    "model" : null,
+                    "location" : "Model Colony, Pune",
+                    "details" : "We Have a 14 Years of Experience in Breeding of Pure Persian Cats Himalayan Cats and Exotic CatsWe as a Hobbyist Love Our Cats just like we Love Our Children'sOur Cats Participated in India's Best Cat Shows and Won the Best Cats Awards and Prices Too...So Be Rest Assure for Guidence from Our side for Your Cats Grooming Keeping Well Healthy And Beutiful",
+                    "price" : "12000"
+                }, 
+                {
+                    "name" : "Pure breed persian kittens with white fur..",
+                    "image" : "",
+                    "price" : "9500",
+                    "location" : "Kondhwa, Pune",
+                    "date" : "4-11-2018",
+                    "details" : "Pure breed persian cats with double coated white fur,doll face,blue n grey eyes,toilet trained,playful,few left,only geniune buyers,price not negociable,kittens same as in pics,DM for videos n pic.."
+                }
+            ]
+        }, 
+        {
+            "name" : "Pet Food & Accessories",
+            "image" : "./assets/images/pets/food.png",
+            "sub" : [ 
+                {
+                    "name" : "Two feeding containers good condition cage",
+                    "image" : "",
+                    "date" : "5-10-2018",
+                    "model" : null,
+                    "location" : "Ghorpadi Gaon,Pune",
+                    "details" : "",
+                    "price" : "400"
+                }, 
+                {
+                    "name" : "Dog food 4 kg",
+                    "image" : "",
+                    "price" : "2450",
+                    "location" : "Nigdi Pradhikaran, Pune",
+                    "date" : "1-4-2018",
+                    "model":null
+                }
+            ]
+        }
+    ]
+},
+{
+    
+    "name" : "furniture",
+    "image" : "assets/images/furniture.png",
+    "subcategory" : [ 
+        {
+            "name" : "Sofa & Dinning",
+            "image" : "./assets/images/furniture/sofa.png",
+            "sub" : [ 
+                {
+                    "name" : "3yrs old 3+2 seater black color sofa",
+                    "image" : "",
+                    "date" : "12-11-2017",
+                    "model" : null,
+                    "location" : "Colony, Pune",
+                    "details" : "3yrs old 3+2 seater black color sofa ,Urgent sale. Price negotiable",
+                    "price" : "7500"
+                }, 
+                {
+                    "name" : "Double seater settee",
+                    "image" : "",
+                    "price" : "4500",
+                    "date" : "13-6-2015",
+                    "model" : null,
+                    "location" : "Bhusari Colony,Pune",
+                    "details" : "Buy double seater sofas online from At Homes. Choose from our collection of two seater wooden sofa & leather sofas, etc. & give your living room a ne ."
+                }
+            ]
+        }, 
+        {
+            "name" : "Beds & Wardrobes",
+            "image" : "./assets/images/furniture/beds.png",
+            "sub" : [ 
+                {
+                    "name" : "Brand new standard queen size is completed bedset",
+                    "price" : "11999",
+                    "image" : "",
+                    "date" : "6-10-2018",
+                    "model" : null,
+                    "location" : "NIBM Road Kondhwa, Pune",
+                    "details" : "we are manufacturer of all kind of furniture product, we can do by size and customized also. "
+                }, 
+                {
+                    "name" : "2 door 3 wooden cupbord",
+                    "image" : "",
+                    "price" : "18000",
+                    "date" : "14-6-2015",
+                    "model" : null,
+                    "location" : "Adwait Nagar, Pune",
+                    "details" : ""
+                }
+            ]
+        }, 
+        {
+            "name" : "Home Decor & Garden",
+            "image" : "./assets/images/furniture/home.png",
+            "sub" : [ 
+                {
+                    "name" : "Hand made wall hanging.. beautiful color",
+                    "price" : "600",
+                    "image" : "",
+                    "date" : "5-5-2018",
+                    "model" : null,
+                    "location" : "Wagholi, Pune",
+                    "details" : "hand made wall hanging.. beautiful color combination."
+                }, 
+                {
+                    "name" : "Diwali Kandil for Home",
+                    "image" : "",
+                    "price" : "700",
+                    "date" : "14-5-2018",
+                    "model" : null,
+                    "location" : "Sasane Nagar, Pune",
+                    "details" : ""
+                }
+            ]
+        }, 
+        {
+            "name" : "Other & Household & Items",
+            "image" : "./assets/images/furniture/spoons.png",
+            "sub" : [ 
+                {
+                    "name" : "Imported sparingly used TV stand with 4 drawers",
+                    "price" : "4000",
+                    "location" : " Viman Nagar, Pune",
+                    "date" : "2-11-2012",
+                    "image" : ""
+                }, 
+                {
+                    "name" : "Red And Black Plastic Chair",
+                    "image" : "",
+                    "price" : "2300",
+                    "location" : "Dhanori Bhairav Nagar, Pune",
+                    "date" : "11-9-2008"
+                }
+            ]
+        }, 
+        {
+            "name" : "Kids Furniture",
+            "image" : "./assets/images/furniture/kids.png",
+            "sub" : [ 
+                {
+                    "name" : "Baby's Pink And White Walker",
+                    "image" : "",
+                    "price" : "1000",
+                    "location" : " Dange Chowk Road, Pune",
+                    "date" : "8-5-20015",
+                    "details" : "Baby walkers provide children with greater access to a wide range of hazards in the home, placing them at greater risk of injury. The major injuries associated with baby walker use include: Falling onto hard surfaces, usually down steps or across changes in floor level."
+                }, 
+                {
+                    "name" : "Soft toy doggy",
+                    "image" : "",
+                    "price" : "300",
+                    "location" : "Roseland, Pune",
+                    "date" : "5-3-2001",
+                    "details" : "A stuffed toy is a toy with an outer fabric sewn from a textile and then stuffed with a flexible material. In North American English, they are variously referred to as plush toys, stuffed animals, plushies, snuggies, stuffies, or snuggled animals. In British English, they are soft toys or cuddly toys."
+                }
+            ]
+        }
+    ]
+},
+{
+    
+    "name" : "services",
+    "image" : "./assets/images/services/services.png",
+    "subcategory" : [ 
+        {
+            "name" : "Driver & Taxi",
+            "image" : "./assets/images/services/driver.png",
+            "sub" : [ 
+                {
+                    "name" : "drivers to all types cabs",
+                    "image" : "",
+                    "date" : "6-9-2017",
+                    "model" : null,
+                    "location" : "Mayur Colony, Pune",
+                    "details" : "We provide drivers to all types cabs. per day(8000)",
+                    "price" : "8000"
+                }, 
+                {
+                    "name" : "Activa on rent.",
+                    "image" : "",
+                    "price" : "4000",
+                    "location" : "Saudagar, Pune",
+                    "details" : "Activa on rent. Zero deposit.",
+                    "model" : null,
+                    "date" : "17-9-2018"
+                }
+            ]
+        }, 
+        {
+            "name" : " Education & classes",
+            "image" : "./assets/images/services/education.png",
+            "sub" : [ 
+                {
+                    "name" : "C/ C++ Home Tutor",
+                    "image" : "",
+                    "date" : "6-9-2018",
+                    "model" : "Programming language",
+                    "location" : "Farms, Pune",
+                    "details" : "",
+                    "price" : "7000"
+                }, 
+                {
+                    "name" : "set of CAT examination.",
+                    "image" : "",
+                    "price" : "2000",
+                    "location" : "Nagar, Pune",
+                    "details" : "",
+                    "model" : null,
+                    "date" : "9-9-2018"
+                }
+            ]
+        }, 
+        {
+            "name" : " Electronics & Computer",
+            "image" : "./assets/images/services/electronics.png",
+            "sub" : [ 
+                {
+                    "name" : "Tata sky connection",
+                    "image" : "",
+                    "date" : "22-10-2018",
+                    "model" : "Tata sky HD+",
+                    "location" : "HYD",
+                    "details" : "",
+                    "price" : " 1900 "
+                }, 
+                {
+                    "name" : "desktop system with - Intel Core 2 duo ",
+                    "image" : "",
+                    "price" : "1200",
+                    "date" : "21-9-2018",
+                    "deatils" : "",
+                    "model" : null,
+                    "location" : "HYD"
+                }
+            ]
+        }, 
+        {
+            "name" : " Other Services",
+            "image" : "./assets/images/services/other.png",
+            "sub" : [ 
+                {
+                    "name" : "We are providing all kind of transport",
+                    "image" : "",
+                    "date" : "12-11-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "We are providing all kind of transport house hold goods shifting ",
+                    "price" : "17000"
+                }, 
+                {
+                    "name" : "Internet provider",
+                    "image" : "",
+                    "price" : "3600",
+                    "location" : "HYD",
+                    "address" : "An Internet service provider (ISP) is a company that provides customers with Internet access. Data may be transmitted using several technologies, including dial-up, DSL, cable modem, wireless or dedicated high-speed interconnects",
+                    "model" : null,
+                    "date" : "12-10-2018"
+                }
+            ]
+        }
+    ]
+},
+{
+   
+    "name" : "fashion",
+    "image" : "./assets/images/fashion.png",
+    "subcategory" : [ 
+        {
+            "name" : "Men",
+            "image" : "./assets/images/fashion/men.png",
+            "sub" : [ 
+                {
+                    "name" : "",
+                    "image" : "",
+                    "date" : "",
+                    "model" : null,
+                    "location" : "",
+                    "details" : [ 
+                        "", 
+                        "", 
+                        ""
+                    ],
+                    "price" : 7890
+                }, 
+                {
+                    "name" : "varna",
+                    "image" : "",
+                    "price" : 4000
+                }
+            ]
+        }, 
+        {
+            "name" : "Women",
+            "image" : "./assets/images/fashion/women.png",
+            "sub" : [ 
+                {
+                    "name" : "Black and white stripes",
+                    "image" : "",
+                    "date" : "1-8-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "",
+                    "price" : "1200"
+                }, 
+                {
+                    "name" : "Kurti off white and pink",
+                    "image" : "",
+                    "price" : "1500",
+                    "location" : "HYD",
+                    "model" : null,
+                    "date" : "2-8-2018",
+                    "details" : ""
+                }
+            ]
+        }, 
+        {
+            "name" : "Kids",
+            "image" : "./assets/images/fashion/kids.png",
+            "sub" : [ 
+                {
+                    "name" : "Black And Red Duffel Bag",
+                    "image" : "",
+                    "date" : "8-12-2017",
+                    "model" : null,
+                    "location" : "Rakshak Nagar, Pune",
+                    "details" : "Black And Red Duffel Bag",
+                    "price" : "1100"
+                }, 
+                {
+                    "name" : "Pink Leather Boots",
+                    "image" : "",
+                    "price" : "1000",
+                    "location" : " Wakad Police Lines, Pune",
+                    "model" : null,
+                    "date" : "12-10-2018",
+                    "details" : "Pair Of Pink Leather Boots"
+                }
+            ]
+        }
+    ]
+},
+{
+    
+    "name" : "jobs",
+    "image" : "./assets/images/jobs.png",
+    "subcategory" : [ 
+        {
+            "name" : "Cook",
+            "image" : "./assets/images/jobs/cook.png",
+            "sub" : [ 
+                {
+                    "name" : "south indian Chinese and veg non veg recipes",
+                    "image" : "",
+                    "date" : "1-8-2018",
+                    "model" : null,
+                    "location" : " Undri, Pune",
+                    "details" : "",
+                    "price" : "12000 - 15,000"
+                }, 
+                {
+                    "name" : "Helper required for cafe.",
+                    "image" : "",
+                    "price" : "15,000",
+                    "location" : "Hadapsar, Pune",
+                    "details" : "",
+                    "model" : null,
+                    "date" : "2-2-2018"
+                }
+            ]
+        }, 
+        {
+            "name" : "Driver",
+            "image" : "./assets/images/jobs/driver.png",
+            "sub" : [ 
+                {
+                    "name" : "Need Driver for Uber Vehicle Urgent",
+                    "image" : "",
+                    "date" : "7-10-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "",
+                    "price" : "14000 - 17,000"
+                }, 
+                {
+                    "name" : "Urgent opening for driver",
+                    "image" : "",
+                    "price" : "10,000-15,000",
+                    "location" : "Chinchwad, Pune",
+                    "details" : "",
+                    "date" : "6-10-2018",
+                    "model" : null
+                }
+            ]
+        }, 
+        {
+            "name" : "Teacher",
+            "image" : "./assets/images/jobs/teacher.png",
+            "sub" : [ 
+                {
+                    "name" : "Required a part time ( 8.30 to 2 pm) lady",
+                    "image" : "",
+                    "date" : "8-12-2017",
+                    "model" : null,
+                    "location" : "Ghorpadi Shreenath Nagar, Pune",
+                    "details" : "",
+                    "price" : "8000 - 10,000"
+                }, 
+                {
+                    "name" : "Home tution ,for 9-10th standard students only.",
+                    "image" : "",
+                    "price" : "12,000",
+                    "location" : " Ambegaon, Pune",
+                    "date" : "13-9-2018",
+                    "model" : null,
+                    "details" : "Science and Maths gona taught at your Home"
+                }
+            ]
+        }, 
+        {
+            "name" : "Accountant",
+            "image" : "./assets/images/jobs/accounts.png",
+            "sub" : [ 
+                {
+                    "name" : "Assistance Accountant",
+                    "image" : "",
+                    "date" : "10-10-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "processing and paying invoices recording receipts and payments.preparing and checking ledger balances and other monthly and yearly accounts completing and submitting tax returns, VAT returns and National Insurance contributions handling company expenses",
+                    "price" : "16000 - 22,000"
+                }, 
+                {
+                    "name" : "Opening For Accounts Executive",
+                    "image" : "",
+                    "price" : "11,000",
+                    "location" : "Sharmik Nagar, Pune",
+                    "date" : "15-9-2018",
+                    "details" : "",
+                    "model" : null
+                }
+            ]
+        }, 
+        {
+            "name" : "Designer",
+            "image" : "./assets/images/jobs/designer.png",
+            "sub" : [ 
+                {
+                    "name" : "Graphic Desiner",
+                    "image" : "",
+                    "date" : "21-8-2018",
+                    "model" :null,
+                    "location" : "Balaji Nagar, Pune",
+                    "details" : "We are looking for a creative graphic designer who is well versed with photoshop and illustrator. You will work on designing creatives for social media posts, emailers, websites, blogs and illustrations.",
+                    "price" : "20,000"
+                }, 
+                {
+                    "name" : "Tailor Required",
+                    "image" : "",
+                    "price" : "9000",
+                    "location" : "HYd",
+                    "details" : "Tailor Required at Amba opposite Dmart",
+                    "date" : "6-3-2018",
+                    "model" : null
+                }
+            ]
+        }
+    ]
+},
+{
+    
+    "name" : "Bikes",
+    "image" : "./assets/images/bikes/bikes.png",
+    "subcategory" : [ 
+        {
+            "name" : "Motorcycles",
+            "image" : "./assets/images/jobs/cook.png",
+            "sub" : [ 
+                {
+                    "name" : "Hero Honda ",
+                    "image" : "",
+                    "date" : "16-7-2018",
+                    "model" : "Honda CBZ 24500 Kms",
+                    "location" : "Somwar Peth, Pune",
+                    "details" : "Excellent condition Cbz Extreme 150cc Model. Original color All paper are clear Single Handed Use. Pune Registration.",
+                    "price" : " 27000"
+                }, 
+                {
+                    "name" : "Royal Enfield",
+                    "image" : "",
+                    "price" : "1,25,000",
+                    "model" : "Continental GT 12000 Kms",
+                    "location" : "pune",
+                    "details" : "",
+                    "date" : "29-5-2015"
+                }
+            ]
+        }, 
+        {
+            "name" : "Scooters",
+            "image" : "./assets/images/bikes/scooter.png",
+            "sub" : [ 
+                {
+                    "name" : "Honda Activa",
+                    "image" : "",
+                    "date" : "12-1-2017",
+                    "model" : null,
+                    "location" : "Wanwadi, Pune",
+                    "details" : "Bikers Highway - India's first verified & certified used scooters & bikes platform having more than 5000 Happy Customers in Pune .We have more verified & certified used Scooters with 180 Days Warranty from 2010-2017 Makes Range Starts from Rs 28000/- Onwards Credit Cards Accepted EASY EMI also available ",
+                    "price" : " 30000"
+                }, 
+                {
+                    "name" : "Hero Pleasure 22000 Kms",
+                    "image" : "",
+                    "price" : "34000",
+                    "location" : "ajiv Gandhi Nagar, Pune",
+                    "date" : "4-1-2018",
+                    "details" : "Hero pleasure 2015 disc model 860099761.6 single owner single handed servicing oil changed no work required excellent cond only 22k km driven by leady will help for RTO work"
+                }
+            ]
+        }, 
+        {
+            "name" : "Bicycles",
+            "image" : "./assets/images/bikes/bicycle.png",
+            "sub" : [ 
+                {
+                    "name" : "Bicycle for kids",
+                    "image" : "",
+                    "date" : "12-11-1018",
+                    "model" : null,
+                    "location" : " Dhanori, Pune",
+                    "details" : "Bicycle for kids",
+                    "price" : "900"
+                }, 
+                {
+                    "name" : "Avon bicycle",
+                    "image" : "",
+                    "price" : "2500",
+                    "location" : "pune",
+                    "model" : null,
+                    "date" : "10-2-2018",
+                    "details" : ""
+                }
+            ]
+        }, 
+        {
+            "name" : "Spare Parts",
+            "image" : "./assets/images/bikes/parts.png",
+            "sub" : [ 
+                {
+                    "name" : "steelbird helmet with isi mark",
+                    "image" : "",
+                    "date" : "9-8-2016",
+                    "model" : null,
+                    "location" : "Pimpri Chinchwad, Pune",
+                    "details" : "Well maintained steelbird helmet with isi mark",
+                    "price" : "400"
+                }, 
+                {
+                    "name" : "Bluetooth keyboard",
+                    "image" : "",
+                    "price" : "3500",
+                    "details" : "Well maintained well working Bluetooth keyboard along with leather cover case notebook type for apple iPad or tab of 7.9inches",
+                    "model" : null,
+                    "date" : "1-9-2018"
+                }
+            ]
+        }
+    ]
+},
+{
+   
+    "name" : "electronics",
+    "image" : "./assets/images/electronics.png",
+    "subcategory" : [ 
+        {
+            "name" : "Fridges",
+            "image" : "./assets/images/electronics/fridge.png",
+            "sub" : [ 
+                {
+                    "name" : "LG 284 L 3 Star Frost Free Double Door Refrigerator(GL-C302RPZU.APZZEBN, Shiny Steel, Inverter Compressor)",
+                    "image" : "",
+                    "date" : "4-10-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "Frost Free, Double Door: Auto defrost to stop ice-build upCapacity 284 L- Suitable for families with 3-4 member Warranty- 1 year on product, 10 years on compressor Energy Rating- 3 Star",
+                    "price" : "24,999.00"
+                }, 
+                {
+                    "name" : "Samsung 192 L 2 Star Direct Cool Single Door Refrigerator(RR19N1Y12RZ/HL, Tender Lily Red)",
+                    "image" : "",
+                    "date" : "1-1-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "Direct Cool, Single Door- Economical requires manual defrostingCapacity 192 L-Suitable for families with 2-3 membersWarranty- 1 year on product, 10 years on compressorEnergy Rating- 2 Star",
+                    "price" : "11,850.00"
+                }
+            ]
+        }, 
+        {
+            "name" : "ACs",
+            "image" : "./assets/images/electronics/ac.png",
+            "sub" : [ 
+                {
+                    "name" : "Samsung 1.5 Ton 3 Star Inverter Split AC (Alloy, AR18NV3HLTR,Star Flower White)",
+                    "image" : "",
+                    "date" : "7-10-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "Energy Rating- 3 Star Type- Inverter Split AC 1.5 Ton Capacity- Suitable for medium sized rooms (120 to 180 sq ft) Warranty- 1 year warranty on product, 10 year compressor warranty, 5 year warranty on condenser",
+                    "price" : "33,999.00"
+                }, 
+                {
+                    "name" : "Carrier 1.5 Ton 3 Star Inverter Split AC (Copper, 18K Esko Inverter H, White)",
+                    "image" : "",
+                    "date" : "3-7-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "Split AC; 1.5 tonEnergy Rating- 3 Star Warranty- 1 year on product, 1 year on condenser, 10 years on compressor",
+                    "price" : "35,999.00"
+                }
+            ]
+        }, 
+        {
+            "name" : "Washing Machines",
+            "image" : "./assets/images/electronics/washing.png",
+            "sub" : [ 
+                {
+                    "name" : "Samsung 6.5 kg Fully-Automatic Top Loading Washing Machine (WA65M4100HV/TL, Sparkling Grey)",
+                    "image" : "",
+                    "date" : "3-10-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "Installation-For requesting an installation/demo for this product once delivered, please call Samsung support directly on 1800 40 7267864 and provide the product's model name.Fully-automatic top-loading washing machine 6.5 kg capacity",
+                    "price" : "15,499.00"
+                }
+            ]
+        }, 
+        {
+            "name" : "TVs,Video-Audio",
+            "image" : "./assets/images/electronics/tv.png",
+            "sub" : [ 
+                {
+                    "name" : "CloudWalker 80 cm (32 inches) 4K Ready Smart HD Ready LED TV 32SHX2 (Black)",
+                    "image" : "",
+                    "date" : "12-9-2018",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "HD Ready (Resolution- 1366 x 768p), Refresh Rate- 60 hertzConnectivity - Input- 3 x HDMI, 2 x USB, 1 x VGA Audio- 20 W output",
+                    "price" : "14,990.00"
+                }, 
+                {
+                    "name" : "TCL 124.5 cm (49 inches) 4K Ultra HD Smart LED TV L49P2US (Golden)",
+                    "image" : "",
+                    "date" : "13-9-2017",
+                    "model" : null,
+                    "location" : "HYD",
+                    "details" : "HD Ready (Resolution- 1366 x 768p), Refresh Rate: 60 hertzConnectivity - Input-3 x HDMI, 2 x USB, 1 x VGAAudio- 20 W outputWarranty Information- 1 year warranty",
+                    "price" : " 14,990.00"
+                }
+            ]
+        }
+    ]
+}
+]
