@@ -1,4 +1,6 @@
-require('./models/db.connection').open();
+// require('./models/db.connection').open();
+require('./models/db.connect');
+
 var express = require('express');
 var bodyparser = require('body-parser');
 
