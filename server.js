@@ -15,7 +15,7 @@ app.use(bodyparser.urlencoded({extended:false})); // urlencoded data for parsing
 app.use(bodyparser.json());
 
 app.use('/',router);
-app.use('/',userRoutes);
+app.use('/api',userRoutes);
 app.use('/api',productRoutes);
 
 app.listen(CONFIG.PORT,CONFIG.HOST,()=>{

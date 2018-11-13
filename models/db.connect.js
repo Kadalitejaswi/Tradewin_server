@@ -2,6 +2,7 @@ const CONFIG = require('../config/index')
 const mongoose = require('mongoose');
 // require mongoose model --&-- register Model
 require('./products.model');
+require('./users.model');
 
 var options = {
     user : CONFIG.DBUSER,

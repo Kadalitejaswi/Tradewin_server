@@ -1,13 +1,31 @@
-const Schema = require('mongoose').Schema;
+const mongoose = require('mongoose')
 
-var usersSchema = new Schema({
-    name:String,
+var addressSchema = mongoose.Schema({
     type:String,
-    email:String,
-    password:String,
-    address:[String],
-    phoneNumber:String,
-    activeStatus:Boolean,
-    gender:String
+    flatNo:Number,
+    street:String,
+    landMark:String,
+    district:String,
+    state:String,
+    pincode:Number
 })
 
+var usersSchema = mongoose.Schema({
+    name:String,
+    type:String,
+    email: {
+        type:String,
+        required:true
+    },
+    password: {
+        type:String,
+        required:true
+    },
+    address:[addressSchema],
+    phoneNumber:String,
+    activeStatus:Boolean,
+    gender:String,
+    role:String
+})
+
+mongoose.model('User',usersSchema,'user');

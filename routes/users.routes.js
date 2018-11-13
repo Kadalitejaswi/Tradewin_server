@@ -1,9 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var userCtrl = require('../controllers/users.controller')
+// var userCtrl = require('../controllers/users.controller');
+var authCtrl = require('../controllers/auth.controller');
 
-router.route('/user').get(userCtrl.getUsers).post(userCtrl.addUser);
+// router.route('/user').get(userCtrl.getAllUsers);
 
-router.route('/data').get(userCtrl.showData)
+router.route('/user/register').post(authCtrl.registration);
+router.route('/user/login').post(authCtrl.login);
+
+
+// router.route('/users/delete/:userId').delete(userCtrl.deleteOneUser);
+// router.route('/users/:userId').get(userCtrl.getOneUser);
 
 module.exports = router;
