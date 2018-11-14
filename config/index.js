@@ -6,6 +6,7 @@ const dbUrl = 'mongodb://127.0.0.1:27017/tradewin';
 const authSource = 'tradewin';
 const dbUser = 'trade';
 const dbPass = 'subash1995';
+const secretekey = "ThisisSubashPenneru"
 
 module.exports = {
     HOST:host,
@@ -13,5 +14,6 @@ module.exports = {
     DBURL:dbUrl,
     AUTHSOURCE:authSource,
     DBUSER:dbUser,
-    dbPass:dbPass
+    dbPass:dbPass,
+    SECRETKEY:secretekey
 }

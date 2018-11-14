@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 var User = mongoose.model('User');
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const CONFIG = require('../config/index');
 
 module.exports.registration = (req,res,next)=>{
     if(!req.body || !req.body.name || !req.body.email ||
@@ -34,11 +36,13 @@ module.exports.registration = (req,res,next)=>{
                 })
             }
             else {
+                var token = jwt.sign({_id:user._id},CONFIG.SECRETKEY,{expiresIn:"24h"})
                 res.status(200).set('application/json')
                 .json({
                     auth:true,
                     message:"User registration Successfull!",
-                    user:user
+                    token:token
+                    // user:user
                 });
             }
         })
@@ -72,11 +76,13 @@ module.exports.login = (req,res,next)=>{
             else {
                 var isPwd = bcrypt.compareSync(req.body.password,user.password);
                 if(isPwd) {
+                    var token = jwt.sign({_id:user._id},CONFIG.SECRETKEY,{expiresIn:"24h"})
                     res.status(200).set('application/json')
                     .json({
                         auth:true,
                         message:"Login Successfull",
-                        user:user
+                        token:token
+                        // user:user
                     })
                 }
                 else {
@@ -86,6 +92,58 @@ module.exports.login = (req,res,next)=>{
                         message:"Enter correct password"
                     })
                 }
+            }
+        })
+    }
+}
+
+module.exports.tokenValidator = (req,res,next)=>{
+    var token = req.headers['x-access-token']
+    if(!token) {
+        res.status(404).set('application/json')
+        .json({
+            auth:false,
+            token:null,
+            message:"Failed to authenticate, Token not Found"
+        });
+    }
+    else {
+        jwt.verify(token,CONFIG.SECRETKEY,(error,doc)=>{
+            if(error) {
+                res.status(401).set('application/json')
+                .json({
+                    error:error,
+                    message:"Failed to authenticate, Unauthorized token"
+                });
+            }
+            else {
+                User.findById(doc._id).exec((error,user)=>{
+                    if(error) {
+                        res.status(500).set('application/json')
+                        .json({
+                            error:error,
+                            message:"Failed to find a user via token"
+                        })
+                    }
+                    else if(!user) {
+                        res.status(404).set('application/json')
+                        .json({
+                            error:error,
+                            message:"User not found via token id"
+                        })
+                    }
+                    else {
+                        // res.status(200).set('application/json')
+                        // .json({
+                        //     auth:true,
+                        //     message:"valid token",
+                        //     token:user
+                        // })
+                        // call function after token evaluation
+                        next();
+                    }
+                })
+                
             }
         })
     }

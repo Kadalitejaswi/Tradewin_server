@@ -22,3 +22,29 @@ db.once('open',()=>{
     console.log("DB Connection Successfull via Mongoose");
       
 })
+
+function graceFullShutdown(signal,callback){
+    mongoose.connection.close(()=>{
+        console.log(`Mongoose connection is disconnected
+            by App Termination Signal :: ${signal}`);
+        callback();
+    });
+}
+process.on('SIGINT',()=>{
+    graceFullShutdown('SIGINT',()=>{
+        process.exit(0)
+    })
+})
+
+process.on('SIGTERM',()=>{
+    graceFullShutdown('SIGTERM',()=>{
+        process.exit(0)
+    })
+})
+
+process.once('SIGUSR2',()=>{
+    graceFullShutdown('SIGUSR2',()=>{
+    process.kill(process.pid,'SIGUSR2');
+
+    })
+})
