@@ -3,10 +3,10 @@ var port = 3030;
 
 const dbUrl = 'mongodb://127.0.0.1:27017/tradewin';
 
-const authSource = 'tradewin';
-const dbUser = 'trade';
-const dbPass = 'subash1995';
-const secretekey = "ThisisSubashPenneru"
+const authSource = 'admin';
+const dbUser = 'tejaswikadali';
+const dbPass = 'kadali';
+const secretekey = "ThisisTejaswikadali"
 
 module.exports = {
     HOST:host,

@@ -16,8 +16,10 @@
     "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "jsonwebtoken": "^8.3.0",
-    "mongodb": "^3.1.8",
-    "mongoose": "^5.3.9"
+    "jsonwebtoken": "^8.4.0",
+    "log4js": "^3.0.6",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.12",
+    "nodemon": "^1.18.6"
   }
 }

@@ -1,0 +1,16 @@
+[2018-11-15T12:30:09.512] [INFO] startup - Server is Running at http://127.0.0.1:3030
+[2018-11-15T12:30:09.514] [INFO] startup - Magic happened at port 3030
+[2018-11-15T12:30:33.320] [INFO] startup - Server is Running at http://127.0.0.1:3030
+[2018-11-15T12:30:33.321] [INFO] startup - Magic happened at port 3030
+[2018-11-15T12:30:48.132] [INFO] access - POST==/user/register
+[2018-11-15T12:34:50.968] [INFO] startup - Server is Running at http://127.0.0.1:3030
+[2018-11-15T12:34:50.970] [INFO] startup - Magic happened at port 3030
+[2018-11-15T12:36:59.700] [INFO] startup - Server is Running at http://127.0.0.1:3030
+[2018-11-15T12:36:59.701] [INFO] startup - Magic happened at port 3030
+[2018-11-15T12:37:47.837] [INFO] access - POST==/api/user/register
+[2018-11-15T12:38:11.364] [INFO] access - POST==/api/user/login
+[2018-11-15T12:39:52.378] [INFO] access - POST==/api/user/login
+[2018-11-15T12:40:03.288] [INFO] access - POST==/api/user/login
+[2018-11-15T12:40:18.646] [INFO] access - POST==/api/user/login
+[2018-11-15T12:41:41.206] [INFO] startup - Server is Running at http://127.0.0.1:3030
+[2018-11-15T12:41:41.207] [INFO] startup - Magic happened at port 3030
